@@ -10,7 +10,7 @@
     }
   ],
   
-  "entities/describe": [
+  "describe": [
    {
   "Resources" : {
     "entities" : {
