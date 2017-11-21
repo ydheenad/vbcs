@@ -1,1 +1,15 @@
-
+{
+  "accounts": [
+    {
+      "id": 1,
+      "name": "name1"
+    },
+        {
+      "id": 2,
+      "name": "name2"
+    },
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
