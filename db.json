@@ -1,99 +1,96 @@
 {
-  "entities": [
-    {
-      "id": 1,
-      "name": "name-1"
-    },
-    {
-      "id": 2,
-      "name": "name-2"
-    }
-  ],
-    "entities/describe": [
-      {
-  "Resources" : {
-    "entities" : {
-      "discrColumnType" : false,
-      "title" : "Entities",
-      "attributes" : [ {
-        "name" : "id",
-        "type" : "integer",
-        "updatable" : true,
-        "mandatory" : true,
-        "queryable" : true,
-        "allowChanges" : "always"
-      }, {
-        "name" : "name",
-        "type" : "string",
-        "updatable" : true,
-        "mandatory" : false,
-        "queryable" : true,
-        "allowChanges" : "always"
-      } ],
-      "collection" : {
-        "rangeSize" : 25,
-        "finders" : [ {
-          "name" : "PrimaryKey",
-          "attributes" : [ {
-            "name" : "id",
-            "type" : "integer",
-            "updatable" : true,
-            "mandatory" : true,
-            "queryable" : true,
-            "allowChanges" : "always"
-          } ]
-        } ],
-        "links" : [ {
-          "rel" : "self",
-          "href" : "https://my-json-server.typicode.com/ydheenad/vbcs/entities",
-          "name" : "self",
-          "kind" : "collection"
-        } ],
-        "actions" : [ {
-          "name" : "get",
-          "method" : "GET",
-          "responseType" : [ "application/json" ]
-        }, {
-          "name" : "create",
-          "method" : "POST",
-          "requestType" : [ "application/json" ],
-          "responseType" : [ "application/json" ]
-        } ]
-      },
-      "item" : {
-        "links" : [ {
-          "rel" : "self",
-          "href" : "https://my-json-server.typicode.com/ydheenad/vbcs/entities/id",
-          "name" : "self",
-          "kind" : "item"
-        }, {
-          "rel" : "canonical",
-          "href" : "https://my-json-server.typicode.com/ydheenad/vbcs/entities/id",
-          "name" : "canonical",
-          "kind" : "item"
-        } ],
-        "actions" : [ {
-          "name" : "get",
-          "method" : "GET",
-          "responseType" : [ "application/json" ]
-        } ]
-      },
-      "links" : [ {
-        "rel" : "self",
-        "href" : "https://my-json-server.typicode.com/ydheenad/vbcs/entities/describe",
-        "name" : "self",
-        "kind" : "describe"
-      }, {
-        "rel" : "canonical",
-        "href" : "https://my-json-server.typicode.com/ydheenad/vbcs/entities/describe",
-        "name" : "canonical",
-        "kind" : "describe"
-      } ]
-    }
-  }
-}     
- ],
-  "profile": {
-    "name": "typicode"
-  }
+	"entities": [{
+			"id": 1,
+			"name": "name-1"
+		},
+		{
+			"id": 2,
+			"name": "name-2"
+		}
+	],
+	"entities/describe": [{
+		"Resources": {
+			"entities": {
+				"discrColumnType": false,
+				"title": "Entities",
+				"attributes": [{
+					"name": "id",
+					"type": "integer",
+					"updatable": true,
+					"mandatory": true,
+					"queryable": true,
+					"allowChanges": "always"
+				}, {
+					"name": "name",
+					"type": "string",
+					"updatable": true,
+					"mandatory": false,
+					"queryable": true,
+					"allowChanges": "always"
+				}],
+				"collection": {
+					"rangeSize": 25,
+					"finders": [{
+						"name": "PrimaryKey",
+						"attributes": [{
+							"name": "id",
+							"type": "integer",
+							"updatable": true,
+							"mandatory": true,
+							"queryable": true,
+							"allowChanges": "always"
+						}]
+					}],
+					"links": [{
+						"rel": "self",
+						"href": "https://my-json-server.typicode.com/ydheenad/vbcs/entities",
+						"name": "self",
+						"kind": "collection"
+					}],
+					"actions": [{
+						"name": "get",
+						"method": "GET",
+						"responseType": ["application/json"]
+					}, {
+						"name": "create",
+						"method": "POST",
+						"requestType": ["application/json"],
+						"responseType": ["application/json"]
+					}]
+				},
+				"item": {
+					"links": [{
+						"rel": "self",
+						"href": "https://my-json-server.typicode.com/ydheenad/vbcs/entities/id",
+						"name": "self",
+						"kind": "item"
+					}, {
+						"rel": "canonical",
+						"href": "https://my-json-server.typicode.com/ydheenad/vbcs/entities/id",
+						"name": "canonical",
+						"kind": "item"
+					}],
+					"actions": [{
+						"name": "get",
+						"method": "GET",
+						"responseType": ["application/json"]
+					}]
+				},
+				"links": [{
+					"rel": "self",
+					"href": "https://my-json-server.typicode.com/ydheenad/vbcs/entities/describe",
+					"name": "self",
+					"kind": "describe"
+				}, {
+					"rel": "canonical",
+					"href": "https://my-json-server.typicode.com/ydheenad/vbcs/entities/describe",
+					"name": "canonical",
+					"kind": "describe"
+				}]
+			}
+		}
+	}],
+	"profile": {
+		"name": "typicode"
+	}
 }
