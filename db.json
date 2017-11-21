@@ -2,11 +2,11 @@
   "entities": [
     {
       "id": 1,
-      "name": "name1"
+      "name": "name-1"
     },
         {
       "id": 2,
-      "name": "name2"
+      "name": "name-2"
     }
   ],
   "profile": {
